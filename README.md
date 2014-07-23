@@ -3,6 +3,8 @@ Carousel.sass
 
 **Carousel.sass** is a simple carousel pure css using Sass.
 
+### [DEMO](http://codepen.io/dangvanthanh/full/AgHnB/)
+
 ### SASS MIXIN
 
 #### SCSS
