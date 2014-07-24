@@ -5,6 +5,11 @@
  * @description: A Simple Carousel Pure CSS Using Sass
  * @version: 0.1.0
  */
+%animation-default {
+  opacity: 1;
+  z-index: 3;
+}
+
 @mixin carousel($items, $animation: 'default') {
   .carousel {
     width: 100%;
@@ -40,18 +45,15 @@
               > label {
                 @if $i == 1 {
                   &:nth-child(#{$items}) {
-                    opacity: 1;
-                    z-index: 3;
+                    @extend %animation-default;
                   }
                 } @else if $i == $items {
                   &:nth-child(#{$items - 1}) {
-                    opacity: 1;
-                    z-index: 3;
+                    @extend %animation-default;
                   }
                 } @else {
                   &:nth-child(#{$i - 1}) {
-                    opacity: 1;
-                    z-index: 3;
+                    @extend %animation-default;
                   }
                 }
               }
@@ -61,13 +63,11 @@
               > label {
                 @if $i == $items {
                   &:nth-child(1) {
-                    opacity: 1;
-                    z-index: 3;
+                    @extend %animation-default;
                   }
                 } @else {
                   &:nth-child(#{$i + 1}) {
-                    opacity: 1;
-                    z-index: 3;
+                    @extend %animation-default;
                   }
                 }
               }
