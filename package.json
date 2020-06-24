@@ -1,21 +1,16 @@
 {
-  "name": "carousel.sass",
-  "version": "0.1.0",
-  "description": "Carousel.sass is a simple carousel pure css using Sass",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dangvanthanh/carousel.sass.git"
-  },
-  "keywords": [
-    "sass",
-    "scss",
-    "carousel",
-    "sliders"
-  ],
-  "author": "Dang Van Thanh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dangvanthanh/carousel.sass/issues"
-  },
-  "homepage": "http://dangthanh.org/labs/carousel"
+	"name": "carousel.sass",
+	"version": "0.1.0",
+	"description": "Carousel.sass is a simple carousel pure css using Sass",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dangvanthanh/carousel.sass.git"
+	},
+	"keywords": ["sass", "scss", "carousel", "sliders"],
+	"author": "Dang Van Thanh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dangvanthanh/carousel.sass/issues"
+	},
+	"homepage": "http://dangthanh.org/labs/carousel"
 }
